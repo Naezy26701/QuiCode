@@ -880,9 +880,10 @@ footer .copyright {
 
 /* xs */
 @media (max-width: 600px) {
-    .loader{
-        display: none;       
-          
+    .loader .nav-part1 h3{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
     .page2{
         margin-top: 1.5vh;
@@ -948,13 +949,18 @@ footer .copyright {
     }
     
     .page3>.about :nth-child(2) {
-        font-size: 3vh;
-        line-height: 3vh;
+        font-size: 2.5vh;
+        line-height: 3.5vh;
         margin-bottom: -63vh;
     }
     
-    .page3 .container{
+    /* .page3 .container{
         margin-top: 22vw;
+        margin-bottom: -52vw;
+    } */
+
+    .page3 .container {
+        margin-top: -3vw;
         margin-bottom: -52vw;
     }
     
