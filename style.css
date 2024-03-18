@@ -207,7 +207,7 @@ body {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     background-color: #210180;
-	color:#FFFFFF;
+    color:#FFFFFF;
     background-image: url("assets/about-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@ body {
     font-size: 7vh;
     text-transform: capitalize;
 	font-family: Trebuchet MS;
-    font-weight: 600;
+    font-weight: 200;
     margin-bottom: -15px;
     margin-top: 1.5vw;
     text-align: center;
@@ -269,6 +269,7 @@ body {
 .card__description{
     display: block;
     font-size: 1rem;
+    font-weight: 200;
     margin-bottom: 1.45rem;
 }
 
