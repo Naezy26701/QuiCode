@@ -877,10 +877,8 @@ footer .copyright {
 
 /* xs */
 @media (max-width: 600px) {
-    .loader .nav-part1 h3{
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+    .loader{
+	    display: none;       
     }
     .page2{
         margin-top: 1.5vh;
