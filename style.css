@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-	font-family: Trebuchet MS;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 *::selection{
@@ -484,6 +484,7 @@ body {
 
 .testimonial>h1 {
     font-size: 3vw;
+    font-weight: 400;
     text-align: center;
     margin-top: 70px;
     margin-bottom: 30px;
@@ -497,6 +498,7 @@ body {
     height: 350px;
     position: relative;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    font-weight: 400;
 
 }
 
@@ -718,6 +720,7 @@ footer .copyright {
 
 .back > h3{
     text-align: center;
+    font-weight: 400;
 }
 
 
@@ -877,10 +880,9 @@ footer .copyright {
 
 /* xs */
 @media (max-width: 600px) {
-    .loader .nav-part1 h3{
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+    .loader{
+        display: none;       
+          
     }
     .page2{
         margin-top: 1.5vh;
