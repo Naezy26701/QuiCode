@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 *::selection{
@@ -207,7 +207,7 @@ body {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     background-color: #210180;
-    color:#FFFFFF;
+	color:#FFFFFF;
     background-image: url("assets/about-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@ body {
     font-size: 7vh;
     text-transform: capitalize;
 	font-family: Trebuchet MS;
-    font-weight: 200;
+    font-weight: 600;
     margin-bottom: -15px;
     margin-top: 1.5vw;
     text-align: center;
@@ -269,13 +269,12 @@ body {
 .card__description{
     display: block;
     font-size: 1rem;
-    font-weight: 200;
     margin-bottom: 1.45rem;
 }
 
 .card__title{
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 100;
     /* line-height: 1.6; */
     font-weight: bold;
     margin-bottom: .75rem;
@@ -284,7 +283,7 @@ body {
 .card__button{
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: 300;  
+    font-weight: 500;  
     color: hsl(82, 60%, 28%);  
 }
 
@@ -730,6 +729,15 @@ footer .copyright {
 
 /* reseponsive */
 @media (max-width: 600px) {
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+
     .loader > h3{
         font-size: 4vh;
 }
@@ -883,6 +891,14 @@ footer .copyright {
 
 /* xs */
 @media (max-width: 600px) {
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
     .loader .nav-part1 h3{
         left: 50%;
         top: 50%;
